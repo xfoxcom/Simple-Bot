@@ -3,7 +3,7 @@ package bot;
 import java.util.Scanner;
 
 public class SimpleBot {
-    final static Scanner scanner = new Scanner(System.in); // Do not change this line
+    final static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
         greet("Aid", "2018");
@@ -46,11 +46,11 @@ public class SimpleBot {
         System.out.println("Let's test your programming knowledge.");
        
         System.out.println("Where do u live?\n 1.Moscow \n 2.London \n 3.Piltower \n 4.New York");
-       // System.out.print("> ");
+
         int num = scanner.nextInt();
         while (num != 1) {
             System.out.println("Please, try again.");
-            //System.out.print("> ");
+
             num = scanner.nextInt();
         }   end();
     }
